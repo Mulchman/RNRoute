@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "Raid Ninja Route",
+  "version": "0.1.0",
+  "description": "Add functionality to raid.ninja to jump between routes without having multiple tabs open.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "short_name": "RNROUTE",
+  "permissions": [
+    "*://*.duriandata.com/destiny2/raid-ninja.jsp*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.duriandata.com/destiny2/raid-ninja.jsp*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "main.css"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon19.png",
+      "38": "icons/icon38.png"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.rnRoute-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;  
+  
+  background-color: #2d3137;
+
+  margin: 0px;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.rnRoute-header-adjust {
+  padding-top: 60px;
+}
+
+.rnRouteLocation {
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+
+.rnRouteLocationSelected {
+  background-color: red;
+}

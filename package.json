@@ -1,0 +1,28 @@
+{
+  "name": "RNRoute",
+  "version": "0.1.0",
+  "description": "Add functionality to raid.ninja to jump between routes without having multiple tabs open.",
+  "main": "main.html",
+  "engines": {
+    "node": "6.9.2"
+  },
+  "scripts": {
+    "test": "echo \"No tests\"",
+    "lint": "eslint . --fix=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mulchman/RNRoute"
+  },
+  "author": "Mulchman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mulchman/RNRoute/issues"
+  },
+  "homepage": "https://github.com/Mulchman/RNRoute",
+  "devDependencies": {
+    "babel-eslint": "8.2.3",
+    "eslint": "4.19.1"
+  },
+  "dependencies": {}
+}
